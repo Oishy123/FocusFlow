@@ -1,0 +1,67 @@
+/* Sets the background and centers everything */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Styles the white box that holds the to-do list */
+  .todo-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Styles the heading */
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styles the text input where user types tasks */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Removes default bullet points from the list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styles each task in the list */
+  li {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styles the delete button */
+  button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Changes button color slightly when hovered */
+  button:hover {
+    background: darkred;
+  }
+  
